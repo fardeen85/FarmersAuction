@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<androidx.cardview.widget.CardView
+    app:cardUseCompatPadding="true"
+    android:elevation="8dp"
+    app:cardCornerRadius="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/grrrrrn">
+
+        <ImageView
+            android:layout_width="290dp"
+            android:layout_height="165dp"
+            android:layout_gravity="center"
+            android:src="@drawable/pre2"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CROPS DETAIL'S"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:shadowColor="@color/black"
+            android:shadowRadius="10">
+        </TextView>
+    </LinearLayout>
+
+    <RelativeLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="15dp">
+
+        <ImageView
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:id="@+id/img1"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginTop="280dp"/>
+        <TextView
+            android:id="@+id/namet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_toRightOf="@id/img1"
+            android:text="This is Crop Name"
+            android:textColor="@color/grren"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginTop="280dp"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/cropid"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/img1"
+            android:textSize="25sp"
+            android:textColor="@color/grren"
+            android:layout_below="@+id/prize"
+            android:text="This is Crop ID"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/typew"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/img1"
+            android:textColor="@color/grren"
+            android:textSize="25sp"
+            android:text="This is Crop Type"
+            android:layout_below="@id/namet"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/description1234"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/img1"
+            android:textColor="@color/grren"
+            android:textSize="25sp"
+            android:text="This is Crop Description"
+            android:layout_below="@id/typew"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/prize"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/img1"
+            android:textColor="@color/grren"
+            android:textSize="25sp"
+            android:text="This is Crop PRICE"
+            android:layout_below="@id/description1234"/>
+
+
+        <TextView
+            android:id="@+id/det"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/prize"
+            android:layout_marginLeft="-46dp"
+            android:layout_marginTop="110dp"
+            android:layout_toRightOf="@id/img1"
+            android:text=":These are BUYER'S DETAILS:"
+            android:textColor="@color/grren"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:id="@+id/img2"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginTop="40dp"
+            android:layout_below="@id/det" />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/name"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/img1"
+            android:textColor="@color/grren"
+            android:textSize="25sp"
+            android:text="This is BUYER NAME"
+            android:layout_below="@+id/det"
+            android:layout_marginTop="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/email"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/img1"
+            android:textColor="@color/grren"
+            android:textSize="25sp"
+            android:text="THIS IS BUYER'S EMAIL"
+            android:layout_below="@+id/name"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/buyprice"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/img1"
+            android:textColor="@color/grren"
+            android:textSize="25sp"
+            android:text="This is BUYER's bid price"
+            android:layout_below="@id/email"/>
+
+        <Button
+            android:id="@+id/accbid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ACCPET BID"
+            android:textSize="30dp"
+            android:layout_marginTop="450dp"
+            android:textColor="@color/white">
+        </Button>
+
+    </RelativeLayout>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

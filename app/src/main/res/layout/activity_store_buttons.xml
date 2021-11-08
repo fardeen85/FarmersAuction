@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".crop_2"
+    android:background="@drawable/maincrop">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:alpha="0">
+    </ImageView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:src="@drawable/crop_dash"
+        android:layout_marginTop="20dp">
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CROPS ACTIVITY"
+        android:textSize="40dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="30dp"
+        android:shadowRadius="20"
+        android:shadowColor="@color/white"
+        android:fontFamily="@font/rampartoneregular">
+    </TextView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="190dp"
+        android:text="ADD NEW CROPS"
+        android:textSize="20sp"
+        android:id="@+id/addbtn"
+        android:background="@drawable/custom_button"
+        android:textColor="@color/white">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="510dp"
+        android:text="UPDATE CROPS"
+        android:textSize="20sp"
+        android:id="@+id/upbtn"
+        android:background="@drawable/custom_button"
+        android:textColor="@color/white">
+    </Button>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:text="DELETE CROPS"
+        android:textSize="20sp"
+        android:id="@+id/delebtn"
+        android:background="@drawable/custom_button"
+        android:layout_marginLeft="100dp"
+        android:textColor="@color/white">
+    </Button>
+</RelativeLayout>

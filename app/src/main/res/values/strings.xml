@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">landing page</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="navigation_drawer_open">Open navigation drawer></string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string-array name="spinner_items">
+        <item>Rs.1000</item>
+        <item>Rs.2000</item>
+        <item>Rs.3000</item>
+        <item>Rs.4000</item>
+        <item>Rs.5000</item>
+        <item>Rs.6000</item>
+        <item>Rs.8000</item>
+        <item>Rs.9000</item>
+        <item>Rs.10000</item>
+    </string-array>
+    <string name="title_activity_onboarding_screen">onboarding_screen</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+</resources>

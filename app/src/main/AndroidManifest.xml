@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.landingpage">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-feature android:name="android.hardware.type.watch" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LandingPage">
+        <activity
+            android:name=".onboarding_screen"
+            android:label="@string/title_activity_onboarding_screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <uses-library
+            android:name="com.google.android.wearable"
+            android:required="true" />
+        <!--
+               Set to true if your app is Standalone, that is, it does not require the handheld
+               app to run.
+        -->
+        <meta-data
+            android:name="com.google.android.wearable.standalone"
+            android:value="true" />
+
+        <activity android:name=".store_buttons">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".store_update" />
+        <activity android:name=".store" />
+        <activity android:name=".buys" />
+        <activity android:name=".bid_detail" />
+        <activity android:name=".update_profile" />
+        <activity android:name=".delete_profile" />
+        <activity android:name=".crop_delete" />
+        <activity android:name=".Signup_update" />
+        <activity android:name=".crop_update" />
+        <activity android:name=".crop_2" />
+        <activity android:name=".buyers" />
+        <activity android:name=".farmer_profile" />
+        <activity android:name=".sells" />
+        <activity android:name=".crop" />
+        <activity android:name=".Dashboard_seller" />
+        <activity android:name=".Dashboard_farmer" />
+        <activity android:name=".contact" />
+        <activity android:name=".About" />
+        <activity android:name=".login_Form" />
+        <activity android:name=".Signup_Form" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Splash_Screen"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".retrive_crop"
+            android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
+    </application>
+
+</manifest>

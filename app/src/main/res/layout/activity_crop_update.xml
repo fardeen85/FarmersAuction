@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".crop"
+    android:background="@drawable/updatecrop">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:alpha="0.1">
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CROPS UPDATE"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:shadowColor="@color/black"
+        android:shadowRadius="10"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="5dp"
+        android:fontFamily="@font/rampartoneregular">
+    </TextView>
+
+    <TextView
+        android:id="@+id/imgn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CROP IMAGE"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/rampartoneregular">
+    </TextView>
+
+
+    <ImageView
+        android:id="@+id/profile3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="130dp"
+        android:src="@drawable/crop_dash"
+        />
+    <EditText
+        android:id="@+id/cropid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CROP ID"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="250dp"
+        android:textAlignment="center">
+    </EditText>
+    <EditText
+        android:id="@+id/namet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CROP NAME"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="320dp"
+        android:textAlignment="center">
+    </EditText>
+    <EditText
+        android:id="@+id/type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CROP TYPE"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="390dp"
+        android:textAlignment="center">
+    </EditText>
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CROP PRICE"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="460dp"
+        android:textAlignment="center">
+    </EditText>
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CROP DESCRIPTION"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="530dp"
+        android:textAlignment="center">
+    </EditText>
+    <Button
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPDATE"
+        android:textSize="20sp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/custom_button"
+        android:textColor="@color/white">
+    </Button>
+</RelativeLayout>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard_farmer"
+    android:background="@drawable/farm_back">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="140dp"
+                        android:src="@drawable/pre2"
+                        android:layout_gravity="center">
+                    </ImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="BUYER'S DASHBOARD"
+                        android:textColor="@color/Accent"
+                        android:textSize="30sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="20dp"
+                        android:shadowRadius="15"
+                        android:shadowColor="@color/white"
+                        android:fontFamily="@font/rampartoneregular">
+                    </TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="215dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10dp">
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            orientation = "vertical"
+                            android:layout_marginRight="15dp"
+                            app:cardElevation="40dp"
+                            app:cardCornerRadius="15dp">
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/img1"
+                                    android:layout_width="120dp"
+                                    android:layout_height="70dp"
+                                    android:src="@drawable/crop_dash"
+                                    android:layout_centerInParent="true">
+                                </ImageView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="CROPS"
+                                    android:textSize="25dp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/corns"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_below="@id/img1"
+                                    android:fontFamily="@font/fredokaoneregular">
+                                </TextView>
+                                <Button
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/btn2"
+                                    android:background="@android:color/transparent">
+
+                                </Button>
+                            </RelativeLayout>
+
+                        </com.google.android.material.card.MaterialCardView>
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            orientation = "vertical"
+                            app:cardElevation="40dp"
+                            app:cardCornerRadius="15dp">
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/img2"
+                                    android:layout_width="120dp"
+                                    android:layout_height="80dp"
+                                    android:src="@drawable/bider"
+                                    android:layout_centerInParent="true">
+                                </ImageView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="BUY'S"
+                                    android:textSize="25dp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/corns"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_below="@id/img2"
+                                    android:fontFamily="@font/fredokaoneregular">
+                                </TextView>
+                                <Button
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/btn11"
+                                    android:background="@android:color/transparent">
+
+                                </Button>
+                            </RelativeLayout>
+
+                        </com.google.android.material.card.MaterialCardView>
+
+                    </LinearLayout>
+<LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="135dp"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="10dp">
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        orientation = "vertical"
+                        android:layout_marginRight="18dp"
+                        app:cardElevation="40dp"
+                        app:cardCornerRadius="15dp">
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/img5"
+                                android:layout_width="130dp"
+                                android:layout_height="80dp"
+                                android:src="@drawable/stall"
+                                android:layout_centerInParent="true">
+                            </ImageView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="SHOP"
+                                android:textSize="25dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/corns"
+                                android:layout_centerHorizontal="true"
+                                android:layout_below="@id/img5"
+                                android:fontFamily="@font/fredokaoneregular">
+                            </TextView>
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:id="@+id/btn5"
+                                android:background="@android:color/transparent">
+
+                            </Button>
+                        </RelativeLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_gravity="center"
+                        orientation = "vertical"
+                        app:cardElevation="40dp"
+                        app:cardCornerRadius="15dp">
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/img6"
+                                android:layout_width="120dp"
+                                android:layout_height="70dp"
+                                android:src="@drawable/baskeet"
+                                android:layout_centerInParent="true">
+                            </ImageView>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="PURCHASE"
+                                android:textSize="25dp"
+                                android:textStyle="bold"
+                                android:textColor="@color/corns"
+                                android:layout_centerHorizontal="true"
+                                android:layout_below="@id/img6"
+                                android:fontFamily="@font/fredokaoneregular">
+                            </TextView>
+                            <Button
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:id="@+id/btn6"
+                                android:background="@android:color/transparent">
+
+                            </Button>
+                        </RelativeLayout>
+
+                    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="135dp"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="10dp">
+                        <com.google.android.material.card.MaterialCardView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:layout_gravity="center"
+                            orientation = "vertical"
+                            app:cardElevation="50dp"
+                            app:cardCornerRadius="15dp">
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent">
+
+                                <ImageView
+                                    android:id="@+id/img3"
+                                    android:layout_width="150dp"
+                                    android:layout_height="70dp"
+                                    android:src="@drawable/clients_profile"
+                                    android:layout_centerInParent="true">
+                                </ImageView>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="PROFILE"
+                                    android:textSize="30dp"
+                                    android:textStyle="bold"
+                                    android:textColor="@color/corns"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_below="@id/img3"
+                                    android:fontFamily="@font/fredokaoneregular">
+                                </TextView>
+                                <Button
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:id="@+id/btn3"
+                                    android:background="@android:color/transparent">
+
+                                </Button>
+                            </RelativeLayout>
+
+                        </com.google.android.material.card.MaterialCardView>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+            <Button
+                android:id="@+id/logout"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:text="LOGOUT"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/custom_button"
+                android:textColor="@color/white">
+
+            </Button>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

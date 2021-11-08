@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".crop"
+    android:background="@drawable/sowing">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD STORE ITEM"
+        android:textColor="@color/black"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        android:shadowColor="@color/white"
+        android:shadowRadius="10"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="@font/rampartoneregular">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ITEM IMAGE"
+        android:textSize="35dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="170dp"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="@font/rampartoneregular">
+    </TextView>
+    <ImageView
+        android:id="@+id/profile121"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="270dp"
+        android:src="@drawable/stall"/>
+    <EditText
+        android:id="@+id/ite_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ITEM ID"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="220dp"
+        android:textAlignment="center">
+    </EditText>
+    <EditText
+        android:id="@+id/ite_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ITEM NAME"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="290dp"
+        android:textAlignment="center">
+    </EditText>
+    <EditText
+        android:id="@+id/ite_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ITEM TYPE"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="350dp"
+        android:textAlignment="center">
+    </EditText>
+    <EditText
+        android:id="@+id/ite_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ITEM PRICE"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="420dp"
+        android:textAlignment="center">
+    </EditText>
+    <EditText
+        android:id="@+id/ite_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ITEM DESCRIPTION"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="480dp"
+        android:textAlignment="center">
+    </EditText>
+    <Button
+        android:id="@+id/ite_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ADD ITEM"
+        android:textSize="20sp"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/custom_button"
+        android:textColor="@color/white"
+        android:textStyle="bold">
+    </Button>
+</RelativeLayout>

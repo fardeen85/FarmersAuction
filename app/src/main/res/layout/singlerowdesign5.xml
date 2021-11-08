@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<androidx.cardview.widget.CardView
+    app:cardUseCompatPadding="true"
+    android:elevation="8dp"
+    app:cardCornerRadius="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/grrrrrn">
+
+        <ImageView
+            android:layout_width="290dp"
+            android:layout_height="165dp"
+            android:layout_gravity="center"
+            android:src="@drawable/pre2"></ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CROPS DETAIL'S"
+            android:textColor="@color/white"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:shadowColor="@color/black"
+            android:shadowRadius="10">
+        </TextView>
+    </LinearLayout>
+    <RelativeLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="15dp">
+
+        <ImageView
+            android:layout_height="120dp"
+            android:layout_width="120dp"
+            android:id="@+id/img1"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginTop="250dp">
+        </ImageView>
+
+        <TextView
+            android:id="@+id/namet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_toRightOf="@id/img1"
+            android:text="This is Crop Name"
+            android:textColor="@color/grren"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginTop="250dp"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/cropif"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/img1"
+            android:textSize="25sp"
+            android:textColor="@color/grren"
+            android:layout_below="@+id/prizeif"
+            android:text="This is Crop ID"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/typewas"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/img1"
+            android:textColor="@color/grren"
+            android:textSize="25sp"
+            android:text="This is Crop Type"
+            android:layout_below="@id/namet"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/description123456"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/img1"
+            android:textColor="@color/grren"
+            android:textSize="25sp"
+            android:text="This is Crop Description"
+            android:layout_below="@id/typewas"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/prizeif"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/img1"
+            android:textColor="@color/grren"
+            android:textSize="25sp"
+            android:text="This is Crop Price"
+            android:layout_below="@id/description123456"/>
+        <TextView
+            android:id="@+id/detl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/prizeif"
+            android:layout_marginLeft="-46dp"
+            android:layout_marginTop="41dp"
+            android:layout_toRightOf="@id/img1"
+            android:text=":These are SELLER'S DETAILS:"
+            android:textColor="@color/grren"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:layout_height="80dp"
+            android:layout_width="80dp"
+            android:id="@+id/image22"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/detl"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/name"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/img1"
+            android:textColor="@color/grren"
+            android:textSize="25sp"
+            android:text="This is SELLER NAME"
+            android:layout_below="@+id/detl"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/email"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/img1"
+            android:textColor="@color/grren"
+            android:textSize="25sp"
+            android:text="This is SELLER EMAIL"
+            android:layout_below="@id/name"/>
+    </RelativeLayout>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
